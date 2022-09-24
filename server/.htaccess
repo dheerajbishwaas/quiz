@@ -1,0 +1,7 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# map neat URL to internal URL
+RewriteRule ^api/auth/([^\/]+)/$   RequestController.php?action=$1 [nc,qsa]
+RewriteRule ^api/auth/([^\/]+)/([0-9]+)/$   RequestController.php?action=$1&id=$2 [nc,qsa]
