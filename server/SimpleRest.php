@@ -1,9 +1,6 @@
 <?php
 
-/*
- * A simple RESTful web service base class
- * Use this as a template and build upon it
- */
+
 class SimpleRest
 {
 
