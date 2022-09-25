@@ -1,4 +1,4 @@
-const host = 'http://localhost/vaave/server';
+const host = 'http://localhost/quiz2/server';
 export const registerRoute = `${host}/api/auth/register/`;
 export const loginRoute = `${host}/api/auth/login/`;
 export const addQuestionRoute = `${host}/api/auth/addquestion/`; 
