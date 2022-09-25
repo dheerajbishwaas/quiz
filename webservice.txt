@@ -1,0 +1,24 @@
+http://localhost/vaave/server 
+this is our host path which i have set in .htaccess file in server folder
+
+${host}/api/auth/register/  his api is for register admin --> 
+requst Body
+{
+    username:"dherah",
+    email:"dheeraj@gmail.com",
+    password:"1230"
+}
+
+response ->{
+    status:200,
+    message:"register sucessfully"
+}
+
+
+${host}/api/auth/login/  -> this api for login admin
+request  {
+    email:"dheeraj@admin.com",
+    password:"1230"
+}
+
+reaposn
