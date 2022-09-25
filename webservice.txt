@@ -1,7 +1,7 @@
 http://localhost/vaave/server 
 this is our host path which i have set in .htaccess file in server folder
 
-1)  =>  ${host}/api/auth/register/  his api is for register admin --> 
+1)  =>  ${host}/api/auth/register/  this api is for register admin --> 
 requst Body
 {
     username:"dherah",
