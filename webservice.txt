@@ -1,0 +1,44 @@
+http://localhost/vaave/server 
+this is our host path which i have set in .htaccess file in server folder
+
+1)  =>  ${host}/api/auth/register/  his api is for register admin --> 
+requst Body
+{
+    username:"dherah",
+    email:"dheeraj@gmail.com",
+    password:"1230"
+}
+
+response ->{
+    status:200,
+    message:"register sucessfully"
+}
+
+
+2)  =>  ${host}/api/auth/login/  -> this api for login admin
+request  {
+    email:"dheeraj@admin.com",
+    password:"1230"
+}
+
+reaposn  ->{
+    {
+  "status": 200,
+  "message": "Fetched Sucessfully",
+  "user": {
+    "id": "10",
+    "username": "admin",
+    "email": "admin@admin.com",
+    "password": "0e7517141fb53f21ee439b355b5a1d0a",
+    "created_at": "2022-09-18 21:54:07"
+  }
+}
+}
+
+
+3) ==> ${host}/api/auth/addquestion/
+    this api is working for adding question whit topic and their option
+    
+
+
+
